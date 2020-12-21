@@ -4,7 +4,7 @@
   - This is made in python. It converts binary number to decimal number. It accepts either string or integer data type. It has `BinaryToDecimal` class and it is the one that you will use to convert binary number into decimal number.
 
 ### How to use
-  1. First make sure that script.py is in your same directory with your project, then in your file import `BinaryToDecimal` class.
+  1. Import `BinaryToDecimal` class.
 ```python
 from script import BinaryToDecimal
 ```
