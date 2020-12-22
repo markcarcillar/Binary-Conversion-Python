@@ -43,7 +43,7 @@ ValueError: This value is not decimal. Make sure it only contains 0-9 and not st
   4. Get the binary value of decimal number
 ```python
 decimal = DecimalToBinary(101010)
-print(decimal.binary) # Use the decimal property
+print(decimal.binary) # Use the binary property
 ``` 
 
 ### Complete code example
@@ -68,7 +68,7 @@ print(decimal.binary) # Use the decimal property
     assert four_bits_binary.decimal == 14
     assert eight_bits_binary.decimal == 238
     assert sixteen_bits_binary.decimal == 61166
-    # Assertion for BinaryToDecimal
+    # Assertion for DecimalToBinary
     assert two_digits_decimal.binary == 1111
     assert four_digits_decimal.binary == 100100000000
     assert eight_digits_decimal.binary == 100110011111001010010101
