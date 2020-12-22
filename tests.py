@@ -9,9 +9,9 @@ class BinaryToDecimalTests(TestCase):
     self.eight_bits_binary = BinaryToDecimal(11101110)
     self.sixteen_bits_binary = BinaryToDecimal(1110111011101110)
     
-  def test_not_valid_when_value_have_metacharacter__letter__or_starts_with_0(self):
-    self.assertRaises(ValueError, BinaryToDecimal, '^$()*+') # metacharacters
-    self.assertRaises(ValueError, BinaryToDecimal, 'Hello world') # letters
+  def test_not_valid_when_value_contains_metacharacter__letter__or_starts_with_0(self):
+    self.assertRaises(ValueError, BinaryToDecimal, '0101^$()*+') # metacharacters
+    self.assertRaises(ValueError, BinaryToDecimal, 'Hello01world') # letters
     self.assertRaises(ValueError, BinaryToDecimal, '01110') # starts with 0 even its binary
   
   def test_base_of_method(self):

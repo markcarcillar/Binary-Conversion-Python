@@ -4,13 +4,15 @@
   - This is made in python. It converts binary number to decimal number. It accepts either string or integer data type. It has `BinaryToDecimal` class and it is the one that you will use to convert binary number into decimal number.
 
 ### How to use
+  - For more information check tests.py file.
   1. Import `BinaryToDecimal` class.
 ```python
 from script import BinaryToDecimal
 ```
-  2. Now use the `BinaryToDecimal` class. When using this make sure the value for its object is binary number. Such as **101010**.
+  2. Now use the `BinaryToDecimal` class. When using this make sure the value for its object is binary number. It accepts string or integer data type. Such as **101010** and **'101010'**.
 ```python
 BinaryToDecimal(101010)
+BinaryToDecimal('101010')
 ```
   3. Try using `BinaryToDecimal` class with not a binary number.
 ```
