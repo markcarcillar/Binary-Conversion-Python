@@ -40,3 +40,29 @@ class BinaryToDecimal:
       if binary.startswith('0'):
         return False
     return True
+
+class DecimalToBinary:
+  ''' Check if the value is decimal first before it save as instance of DecimalToBinary class and have a binary value '''
+  def __init__(self, decimal):
+    if not self.is_decimal(str(decimal)):
+      raise ValueError('This value is not decimal. Make sure it only contains 0-9 and not start with 0.')
+    self.decimal = decimal
+  
+  @property
+  def binary(self):
+    ''' Returns binary as integer data type '''
+    binary = int(bin(int(self.decimal))[2:])
+    return binary
+  
+  @staticmethod
+  def is_decimal(decimal):
+    '''
+      Returns true if value only contains 0-9 and not start with 0, otherwise, false. 
+      It accepts string or integer data type.
+    '''
+    if re.search(r'[^0-9]', decimal):
+      return False
+    if len(decimal) > 1:
+      if decimal.startswith('0'):
+        return False
+    return True
