@@ -1,7 +1,7 @@
-# Binary Conversion
+# Binary Conversion - Python
 
 ### Description
-  - A python module that allows conversion of binary to decimal and decimal to binary.
+  - A python module that has a conversion for binary to decimal and decimal to binary number.
 
 ### How to use
   - For more information check tests.py file.
@@ -20,7 +20,7 @@ BinaryToDecimal('101010')
 ```
 ValueError: This value is not binary. Make sure it only contains 0 or 1 and not start with 0.
 ```
-  4. Get the decimal value of binary number
+  4. Get the decimal value of binary number.
 ```python
 binary = BinaryToDecimal(101010)
 print(binary.decimal) # Use the decimal property
@@ -40,7 +40,7 @@ DecimalToBinary('8672')
 ```
 ValueError: This value is not decimal. Make sure it only contains 0-9 and not start with 0.
 ```
-  4. Get the binary value of decimal number
+  4. Get the binary value of decimal number.
 ```python
 decimal = DecimalToBinary(101010)
 print(decimal.binary) # Use the binary property
@@ -50,7 +50,7 @@ print(decimal.binary) # Use the binary property
   ```python
     from script import BinaryToDecimal, DecimalToBinary
 
-    # Create instance of BinaryToDecimal and DecimalToBinary class
+    # Create an instance of BinaryToDecimal and DecimalToBinary class
     # BinaryToDecimal
     two_bits_binary = BinaryToDecimal('10')
     four_bits_binary = BinaryToDecimal(1110)
