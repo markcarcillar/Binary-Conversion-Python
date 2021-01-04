@@ -1,5 +1,10 @@
 # Binary Conversion - Python
 
+[![My website](https://img.shields.io/badge/CLeDiscover-Clever%2C%20let's%20discover!-brightgreen?style=for-the-badge&logo=appveyor&logo=superuser)](https://clediscover.xyz)
+
+[![GitHub stars](https://img.shields.io/github/stars/clediscover/Binary-Conversion-Python)](https://github.com/clediscover/Binary-Conversion-Python/stargazers)
+[![GitHub license](https://img.shields.io/github/license/clediscover/Binary-Conversion-Python)](https://github.com/clediscover/Binary-Conversion-Python/blob/master/LICENSE.md)
+
 ### Description
   - A python module that has a conversion for binary to decimal and decimal to binary number.
 
